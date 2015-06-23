@@ -117,6 +117,10 @@ contacts = {
             'type': 'dict',
             'keyschema': {'type': 'integer'}
         },
+        'valueschema_dict': {
+            'type': 'dict',
+            'valueschema': {'type': 'integer'}
+        },
         'aninteger': {
             'type': 'integer',
         },
